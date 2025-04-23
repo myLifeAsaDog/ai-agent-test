@@ -2,7 +2,7 @@ import { r as render, d as define_property, H as HYDRATION_START, a as HYDRATION
 import { s as safe_equals, e as equals, d as decode_pathname, a as decode_params, n as normalize_path, b as disable_search, v as validate_layout_server_exports, c as validate_layout_exports, f as validate_page_server_exports, g as validate_page_exports, r as resolve, m as make_trackable, h as readable, w as writable } from './chunks/exports-CrIbTDHL.js';
 
 const BROWSER = false;
-let base = "";
+let base = "/ai-agent-test";
 let assets = base;
 const app_dir = "_app";
 const initial = { base, assets };
@@ -1714,7 +1714,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1aolwwu"
+  version_hash: "eg4yic"
 };
 async function get_hooks() {
   let handle;
