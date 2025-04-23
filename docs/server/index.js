@@ -1,8 +1,7 @@
-import { r as render, d as define_property, H as HYDRATION_START, a as HYDRATION_ERROR, b as HYDRATION_END, o as object_prototype, c as array_prototype, U as UNINITIALIZED, g as get_descriptor, i as is_extensible, e as array_from, f as get_prototype_of, h as is_array, j as run_all, k as index_of, p as push$1, s as setContext, l as pop$1 } from './chunks/index-DevouZ2U.js';
-import { s as safe_equals, e as equals, d as decode_pathname, a as decode_params, n as normalize_path, b as disable_search, v as validate_layout_server_exports, c as validate_layout_exports, f as validate_page_server_exports, g as validate_page_exports, r as resolve, m as make_trackable, h as readable, w as writable } from './chunks/exports-CrIbTDHL.js';
+import { r as render, d as define_property, H as HYDRATION_START, a as HYDRATION_ERROR, b as HYDRATION_END, s as safe_equals, o as object_prototype, c as array_prototype, U as UNINITIALIZED, g as get_descriptor, i as is_extensible, e as array_from, f as equals, h as get_prototype_of, j as is_array, k as run_all, l as index_of, p as push$1, m as setContext, n as pop$1, q as decode_pathname, t as decode_params, u as normalize_path, v as disable_search, w as validate_layout_server_exports, x as validate_layout_exports, y as validate_page_server_exports, z as validate_page_exports, A as resolve, B as make_trackable, C as readable, D as writable } from './chunks/exports-DpDRMCAM.js';
 
 const BROWSER = false;
-let base = "/ai-agent-test";
+let base = "";
 let assets = base;
 const app_dir = "_app";
 const initial = { base, assets };
@@ -1714,7 +1713,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "eg4yic"
+  version_hash: "14o9qnn"
 };
 async function get_hooks() {
   let handle;

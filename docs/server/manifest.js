@@ -6,33 +6,25 @@ function __memo(fn) {
 
 return {
 	appDir: "_app",
-	appPath: "ai-agent-test/_app",
+	appPath: "_app",
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		client: {start:"_app/immutable/entry/start.D18Dc5zt.js",app:"_app/immutable/entry/app.DHfzAzMC.js",imports:["_app/immutable/entry/start.D18Dc5zt.js","_app/immutable/chunks/gIliQdyJ.js","_app/immutable/chunks/Drkbx91g.js","_app/immutable/chunks/CzHGqfso.js","_app/immutable/entry/app.DHfzAzMC.js","_app/immutable/chunks/Drkbx91g.js","_app/immutable/chunks/9HmzWm-j.js","_app/immutable/chunks/DL4Cwa5e.js","_app/immutable/chunks/CA3MNjiG.js","_app/immutable/chunks/CzHGqfso.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.DL7DO1um.js",app:"_app/immutable/entry/app.CEbGhWU2.js",imports:["_app/immutable/entry/start.DL7DO1um.js","_app/immutable/chunks/BvK8wjA0.js","_app/immutable/chunks/XrXDYhV9.js","_app/immutable/chunks/CVAQYCPX.js","_app/immutable/entry/app.CEbGhWU2.js","_app/immutable/chunks/XrXDYhV9.js","_app/immutable/chunks/DYMbm4s-.js","_app/immutable/chunks/JmO34ccS.js","_app/immutable/chunks/DA3f3Alq.js","_app/immutable/chunks/CVAQYCPX.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
-			__memo(() => import('./chunks/0-Bdc92fxb.js')),
-			__memo(() => import('./chunks/1-CxuI1oj3.js')),
-			__memo(() => import('./chunks/2-5tU83AIu.js'))
+			__memo(() => import('./chunks/0-CLqAbLqC.js')),
+			__memo(() => import('./chunks/1-_GGHeSOu.js'))
 		],
 		routes: [
-			{
-				id: "/",
-				pattern: /^\/$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 2 },
-				endpoint: null
-			},
 			{
 				id: "/api/chat",
 				pattern: /^\/api\/chat\/?$/,
 				params: [],
 				page: null,
-				endpoint: __memo(() => import('./chunks/_server.ts-BZ5AD1MV.js'))
+				endpoint: __memo(() => import('./chunks/_server.ts-wT1r-yX6.js'))
 			}
 		],
-		prerendered_routes: new Set([]),
+		prerendered_routes: new Set(["/"]),
 		matchers: async () => {
 			
 			return {  };
@@ -42,9 +34,9 @@ return {
 }
 })();
 
-const prerendered = new Set([]);
+const prerendered = new Set(["/"]);
 
-const base = "/ai-agent-test";
+const base = "";
 
 export { base, manifest, prerendered };
 //# sourceMappingURL=manifest.js.map
