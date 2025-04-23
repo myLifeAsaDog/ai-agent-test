@@ -15,10 +15,7 @@ const config = {
 			assets: './docs',
 			pages: './docs',
 			fallback: 'index.html'
-		}),
-		paths: {
-			base: '/ai-agent-test'
-		}
+		})
 	}
 };
 
